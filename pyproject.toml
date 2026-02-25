@@ -42,9 +42,9 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/elenapashkova/ai-decision-boundary-assistant"
-"Bug Reports" = "https://github.com/elenapashkova/ai-decision-boundary-assistant/issues"
-"Source" = "https://github.com/elenapashkova/ai-decision-boundary-assistant"
+"Homepage" = "https://github.com/oivie/ai-decision-bounary-assistant"
+"Bug Reports" = "https://github.com/oivie/ai-decision-bounary-assistant/issues"
+"Source" = "https://github.com/oivie/ai-decision-bounary-assistant"
 
 [project.scripts]
 ai-decision-assistant = "ai_decision_assistant.ui.app:main"

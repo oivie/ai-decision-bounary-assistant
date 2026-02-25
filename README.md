@@ -15,8 +15,8 @@ Converts unstructured conversations (emails, Slack threads, meeting notes) into:
 ### **Instant Demo** (No setup required)
 
 ```bash
-git clone <repository>
-cd ai-decision-boundary-assistant
+git clone https://github.com/oivie/ai-decision-bounary-assistant.git
+cd ai-decision-bounary-assistant
 python3 demo.py
 ```
 

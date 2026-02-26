@@ -2,8 +2,8 @@
 
 ## Scenario 1: Risk/Compliance Decision
 """
-From: Sarah Chen <s.chen@wealthsimple.com>
-To: Risk Committee <risk@wealthsimple.com>
+From: Sarah Chen <s.chen@example.com>
+To: Risk Committee <risk@example.com>
 Subject: New crypto trading feature - compliance review
 
 Hey team,
@@ -24,12 +24,12 @@ Sarah
 
 ---
 
-From: Mike Rodriguez <m.rodriguez@wealthsimple.com>
+From: Mike Rodriguez <m.rodriguez@example.com>
 Reply: I'm concerned about the regulatory risk. FINTRAC guidance on crypto reporting is still unclear. Can we get legal sign-off first?
 
 ---
 
-From: Legal Team <legal@wealthsimple.com>
+From: Legal Team <legal@example.com>
 Reply: We can proceed with enhanced due diligence but recommend starting even smaller - $5K limits and BTC only initially.
 
 ---
@@ -66,8 +66,8 @@ Sarah Liu: Approved. I'll update marketing materials to reflect phased rollout.
 
 ## Scenario 3: Customer Incident Escalation
 """
-From: Customer Success <cs@wealthsimple.com>
-To: Product Team <product@wealthsimple.com>
+From: Customer Success <cs@example.com>
+To: Product Team <product@example.com>
 Subject: URGENT - Trading halt affecting 50+ users
 
 Team,

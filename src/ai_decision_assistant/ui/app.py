@@ -44,8 +44,8 @@ def main():
         
         scenario_options = {
             "Custom Input": "",
-            "Risk/Compliance Decision": """From: Sarah Chen <s.chen@wealthsimple.com>
-To: Risk Committee <risk@wealthsimple.com>
+            "Risk/Compliance Decision": """From: Sarah Chen <s.chen@example.com>
+To: Risk Committee <risk@example.com>
 Subject: New crypto trading feature - compliance review
 
 Hey team,
@@ -66,12 +66,12 @@ Sarah
 
 ---
 
-From: Mike Rodriguez <m.rodriguez@wealthsimple.com>
+From: Mike Rodriguez <m.rodriguez@example.com>
 Reply: I'm concerned about the regulatory risk. FINTRAC guidance on crypto reporting is still unclear. Can we get legal sign-off first?
 
 ---
 
-From: Legal Team <legal@wealthsimple.com>
+From: Legal Team <legal@example.com>
 Reply: We can proceed with enhanced due diligence but recommend starting even smaller - $5K limits and BTC only initially.
 
 ---
@@ -100,8 +100,8 @@ Alex Kim: I'll handle the communication to affected users. Timeline: launch Marc
 
 Sarah Liu: Approved. I'll update marketing materials to reflect phased rollout.""",
             
-            "Customer Incident": """From: Customer Success <cs@wealthsimple.com>
-To: Product Team <product@wealthsimple.com>
+            "Customer Incident": """From: Customer Success <cs@example.com>
+To: Product Team <product@example.com>
 Subject: URGENT - Trading halt affecting 50+ users
 
 Team,
@@ -162,7 +162,7 @@ Reply: Perfect. I'll coordinate with ops team. Should have everyone back online 
     # Analysis button
     col1, col2 = st.columns([1, 4])
     with col1:
-        if st.button("🔍 Analyze Conversation", type="primary"):
+        if st.button("Analyze", type="primary"):
             if conversation.strip():
                 with st.spinner("Analyzing conversation..."):
                     st.session_state.analysis = st.session_state.analyzer.analyze_conversation(

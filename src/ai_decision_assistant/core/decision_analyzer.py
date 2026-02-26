@@ -33,7 +33,7 @@ class DecisionAnalyzer:
                 self.client = None
         
     def get_system_prompt(self, high_stakes_mode: bool = False) -> str:
-        base_prompt = """You are a Decision Intelligence Assistant for a regulated fintech company (like Wealthsimple).
+        base_prompt = """You are a Decision Intelligence Assistant for a regulated fintech company (like example).
 
 Your role is to extract structured decision information from messy conversation threads while being:
 - PRECISE: Only extract what is explicitly stated
